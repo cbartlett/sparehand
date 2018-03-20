@@ -1,0 +1,16 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/comment_block
+lib/sparehand/comment_block.rb
+lib/sparehand/safe_modify.rb
+lib/sparehand/version.rb
+setup.rb
+test/comment_block_cli_test.rb
+test/comment_block_test.rb
+test/fixtures/example_hosts_file
+test/fixtures/safe_modify_data
+test/safe_modify_test.rb
+test/test_all.rb
+test/test_helper.rb

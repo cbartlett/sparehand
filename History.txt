@@ -1,0 +1,9 @@
+0.0.3
+More re-working test framework to play nice with testrb and subsequently firebrigde.
+Also moved libraries into sparehand directory to avoid potential naming issues.
+
+0.0.2
+Added rake and hoe dependencies to appease the firebrigade gods.
+
+0.0.1
+Provided functionality for commenting or uncommenting named blocks.

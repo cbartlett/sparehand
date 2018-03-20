@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'sparehand/comment_block'
+require 'sparehand/safe_modify'
+
+File.safe_modify(ARGV[0]) do |input, output|
+  Sparehand::CommentBlock.process(input, ARGV[2], ARGV[1].to_sym, ARGV[3] || '#', output)
+end

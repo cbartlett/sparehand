@@ -1,0 +1,7 @@
+#BEGIN internal
+internal host
+#END internal
+
+#BEGIN external
+#external host
+#END external
